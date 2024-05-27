@@ -20,4 +20,23 @@ public class Camion extends VehiculoCarga{
         System.out.println("Numero de Ejes: " + numEjes);
     }
 
+    @Override
+    void realizarMantenimiento(){
+        super.realizarMantenimiento();
+        System.out.println("    -Frenos-");
+        System.out.println("    -Lubricante-");
+        System.out.println("    -Bateria-");
+        System.out.println("    -Sistema Electrico-");
+        System.out.println("    -Amortiguadores-");
+        System.out.println("    -Correa de distribucion-");
+    }
+
+    //metodo inventado por mi, para practicar
+    void mantenimientoCamion(int añosDeOperacion, int costoporKm, int kilometrosRecorridos){
+        System.out.print("Precio del mantenimiento: ");
+        int costoTotal = kilometrosRecorridos/añosDeOperacion
+    * costoporKm;
+        System.out.println(costoTotal+"$");
+    }
+
 }

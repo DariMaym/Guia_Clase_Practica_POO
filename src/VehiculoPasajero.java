@@ -1,8 +1,6 @@
 public class VehiculoPasajero extends Vehiculo {
 
     private int numPasajeros;
-    
-
     //constructor 
     public VehiculoPasajero(String Marca, String Modelo, int Año, int Kilometraje, int numPasajeros){
         super(Marca, Modelo, Año, Kilometraje);

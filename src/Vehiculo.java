@@ -19,7 +19,6 @@ public class Vehiculo {
     public void setMarca(String marca) {
     Marca = marca;
     }
-
     public int getAño() {
         return Año;
     }
@@ -48,7 +47,13 @@ public class Vehiculo {
         System.out.println("Kilometreje: "+ Kilometraje);
     }
 
-    
+    void realizarMantenimiento (){
+        System.out.println("               ==MANTENIMIENTO==");
+        System.out.println("Recuerde, es importante realizar un mantenimiento a su vehiculo para evitar accidetes");
+        System.out.println("Por favor, tenga en cuenta las siguientes partes a revisar de su auto");
+        System.out.println(">>>>partes a realizar mantenimiento<<<<");
+
+    }
 
 
 }
